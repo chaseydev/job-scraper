@@ -1,0 +1,13 @@
+{
+    "jobstreet": {
+        "url": "https://www.jobstreet.com.ph",
+        "daterange": "1",
+        "location": ""
+
+    },
+    "linkedin": {
+        "url": "https://www.linkedin.com",
+        "daterange": "1",
+        "location": "Philippines"
+    }
+}
