@@ -1,13 +1,11 @@
 {
-    "jobstreet": {
-        "url": "https://www.jobstreet.com.ph",
-        "daterange": "1",
-        "location": ""
-
-    },
-    "linkedin": {
-        "url": "https://www.linkedin.com",
-        "daterange": "1",
+    "url": {
+        "jobstreet": "https://www.jobstreet.com.ph",
+        "linkedin": "https://www.linkedin.com"
+    }, 
+    "filters": {
+       "daterange": "1",
         "location": "Philippines"
+
     }
 }
