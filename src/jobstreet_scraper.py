@@ -3,9 +3,9 @@ import requests
 
 from bs4 import BeautifulSoup
 
-from job_scrapper import JobsScrapper
+from job_scraper import JobScraper
 
-class JobStreetScrapper(JobsScrapper):
+class JobStreetScraper(JobScraper):
 
     def __init__(self, job, config):
         super().__init__(job, config)

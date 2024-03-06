@@ -1,7 +1,7 @@
 # Template Class
 from abc import ABC, abstractmethod
 
-class JobsScrapper(ABC):
+class JobScraper(ABC):
     
     @abstractmethod
     def __init__(self, job, config):

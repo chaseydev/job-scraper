@@ -10,9 +10,9 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from custom_exceptions import ExpectedPageNotFound
-from job_scrapper import JobsScrapper
+from job_scraper import JobScraper
 
-class LinkedInScrapper(JobsScrapper):
+class LinkedInScraper(JobScraper):
 
     def __init__(self, job, config):
         super().__init__(job, config)
